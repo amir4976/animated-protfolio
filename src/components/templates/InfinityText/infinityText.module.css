@@ -1,0 +1,30 @@
+.main{
+    position: relative;
+}
+
+.sliderContainer{
+    position: absolute;
+    overflow: hidden;
+    background-color: #c8fec8;
+}
+
+.slider{
+     position: relative;
+     white-space: nowrap;
+     display: flex;
+}
+
+.slider p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #0b0b0b;
+    font-size: 240px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slider p:nth-of-type(2){
+    position: absolute;
+    left: 100%;
+}

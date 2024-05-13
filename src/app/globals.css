@@ -1,0 +1,76 @@
+@tailwind base; /* Preflight will be injected here */
+
+@tailwind components;
+
+@tailwind utilities;
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: #fff;
+    scroll-behavior: smooth;
+
+}
+
+#Layer_2{
+    width: 300px;
+    overflow: visible;
+    
+}
+#Layer_1{
+    width: 400px;
+    overflow: visible;
+    margin-top: 10px;
+    
+}
+
+.socialmedia{
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    border: 1px solid white;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+}
+.LandingBTN{
+    transition: all 0.5s;
+}
+.LandingBTN-layer:hover{
+    background:#C8FEC7;
+    color: black;
+}
+
+
+.Rate-title{
+    font-size:90px;
+    line-height: 1;
+}
+.Rate-disc{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* paragrap */
+
+.word{
+    position: relative;
+}
+.shadow{
+    position: absolute;
+    opacity: 0.1;
+}
+
+
+/* Testimonial */
+
+.Testimonial{
+    background-image: url(/images/test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
